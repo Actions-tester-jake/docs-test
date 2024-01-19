@@ -81,6 +81,6 @@ If there are `n` CPU cores on the machine, the value of `core` can be within the
 
 include::shared:partial$suggested-reading.adoc[]
 
-- https://redpanda.com/blog/raft-protocol-reconfiguration-solution/[Engineering a more robust Raft group reconfiguration^]
+- xref:get-started:architecture.adoc#partition-leadership-elections[Partition leadership elections]
 
 
