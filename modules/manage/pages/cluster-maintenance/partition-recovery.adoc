@@ -7,7 +7,7 @@ Redpanda performs forced partition recovery by promoting the best available repl
 
 CAUTION: Forced partition recovery allows some potential data loss on the partition if the best available replica is out of sync, ending up in an unclean leader election. Use this operation with caution, and only when brokers have failed beyond recovery to the point that the remaining replicas cannot form a majority. 
 
-NOTE: If you want to instead force recover all partitions in bulk from a set of failed brokers, use nodewise recovery.
+NOTE: If you want to instead force recover all partitions in bulk from a set of failed brokers, use xref:./nodewise-partition-recovery.adoc[nodewise recovery].
 
 == Use the Admin API to recover a partition
 
