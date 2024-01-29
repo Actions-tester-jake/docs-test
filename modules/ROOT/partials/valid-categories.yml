@@ -8,7 +8,10 @@ page-valid-categories:
         definition: 'Processing streaming data using Redpanda, including transformations, aggregations, and stateful processing.'
         related: ['flink']
       - category: 'Data Transforms'
-        definition: 'Processing streaming data using Redpanda, including transformations, aggregations, and stateful processing.'
+        definition: 'Building and deploying inline transformations (data transforms) on data written to Redpanda topics.'
+        related: ['wasm']
+      - category: 'Benchmarking'
+        definition: 'Measuring and evaluating the performance of Redpanda under various conditions and workloads. Benchmarking covers performance testing, throughput, and latency measurement, and optimizing configurations for maximum efficiency.'
         related: ['wasm']
   - category: 'Deployment'
     definition: 'Deploying Redpanda in various environments such as Docker or Kubernetes.'
